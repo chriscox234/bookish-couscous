@@ -4,7 +4,7 @@
 // I will not lie, cheat, or steal, nor will I accept the actions of those
 // who do.
 // -- Christopher Cox (chriscox)
-package prj5;
+package prj5.src;
 
 /**
  * @author Christopher Cox
@@ -17,12 +17,43 @@ public class engagement {
     private int comments;
     private int views;
     public engagement(int likes, int posts, int followers, int comments, int views) {
-        this.likes = likes;
+        this.likes = likes; 
         this.posts = posts;
         this.followers = followers;
         this.comments = comments;
         this.views = views;
     }
+    /**
+     * @return the likes
+     */
+    public int getLikes() {
+        return likes;
+    }
+    /**
+     * @return the posts
+     */
+    public int getPosts() {
+        return posts;
+    }
+    /**
+     * @return the followers
+     */
+    public int getFollowers() {
+        return followers;
+    }
+    /**
+     * @return the comments
+     */
+    public int getComments() {
+        return comments;
+    }
+    /**
+     * @return the views
+     */
+    public int getViews() {
+        return views;
+    }
+    
     
     
 }

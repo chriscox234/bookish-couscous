@@ -1,7 +1,7 @@
 /**
  *
  */
-package prj5.src;
+package prj5;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

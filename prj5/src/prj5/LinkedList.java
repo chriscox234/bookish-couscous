@@ -4,7 +4,7 @@
 // I will not lie, cheat, or steal, nor will I accept the actions of those
 // who do.
 // -- Christopher Cox (chriscox)
-package prj5.src;
+package prj5;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
